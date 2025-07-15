@@ -1,0 +1,32 @@
+# Binaries
+eva
+*.exe
+*.out
+
+# Build / release / dist
+/dist/
+/bin/
+/build/
+*.tar.gz
+*.zip
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+
+# Local config
+.eva/
+.env
+config.yaml
+config.json
+
+# Dependency dirs (if vendored)
+vendor/
+
+# Logs & debug
+*.log
